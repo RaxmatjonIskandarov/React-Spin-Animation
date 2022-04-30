@@ -1,0 +1,37 @@
+body {
+   margin: 0;
+   font-family: system-ui;
+}
+
+.App {
+   text-align: center;
+}
+
+.App-logo {
+   height: 250px;
+   animation: App-logo-spin 10s infinite linear;
+}
+
+.App-header {
+   background-color: rgb(29, 29, 59);
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   font-size: 22px;
+}
+
+.App-link {
+   color: rgb(23, 199, 199);
+}
+
+@keyframes App-logo-spin {
+   from {
+      transform: rotate(0deg);
+   }
+
+   to {
+      transform: rotate(360deg);
+   }
+}
